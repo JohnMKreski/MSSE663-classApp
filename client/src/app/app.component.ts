@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { NavBarComponent } from "./nav-bar/nav-bar.component";
+import { PizzasListComponent } from './pizzas-list/pizzas-list.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
+
 
 //Components for all of the app
 //add components to the imports that are sharedover the entire app
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavBarComponent],
+  imports: [RouterOutlet, NavBarComponent, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
