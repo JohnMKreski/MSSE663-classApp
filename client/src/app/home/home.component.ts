@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { PizzaAppComponent } from '../pizza-app/pizza-app.component';
+import { PizzaAppComponent } from '../pizza/pizza-app/pizza-app.component';
 
 @Component({
   selector: 'app-home',

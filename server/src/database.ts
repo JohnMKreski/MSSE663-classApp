@@ -51,5 +51,5 @@ async function applySchemaValidation(db: mongodb.Db) {
         if (error.codeName === "NamespaceNotFound") {
             await db.createCollection("pizzas", {validator: jsonSchema});
         }
-    });
+    }); 
 }

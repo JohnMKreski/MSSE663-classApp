@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { PizzaAppComponent } from './pizza-app/pizza-app.component';
+import { PizzaAppComponent } from './pizza/pizza-app/pizza-app.component';
 import { AboutComponent } from './about/about.component';
-import { PizzasListComponent } from './pizzas-list/pizzas-list.component';
-import { AddPizzaComponent } from './add-pizza/add-pizza.component';
-import { EditPizzaComponent } from './edit-pizza/edit-pizza.component';
+import { PizzasListComponent } from './pizza/pizzas-list/pizzas-list.component';
+import { AddPizzaComponent } from './pizza/add-pizza/add-pizza.component';
+import { EditPizzaComponent } from './pizza/edit-pizza/edit-pizza.component';
 
 export const routes: Routes = [
   {

@@ -9,7 +9,7 @@
       z-index: 1;
   
       &__board {
-        background: url(../../assets/board.svg) no-repeat 0 20px;
+        background: url(../../../assets/board.svg) no-repeat 0 20px;
         background-size: contain;
         width: 500px;
         height: 342px;
@@ -20,7 +20,7 @@
       }
   
       &__base {
-        background: url(../../assets/base.svg) no-repeat;
+        background: url(../../../assets/base.svg) no-repeat;
         background-size: contain;
         width: 390px;
         height: 322px;

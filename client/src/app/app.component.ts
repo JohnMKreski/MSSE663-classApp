@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { NavBarComponent } from "./nav-bar/nav-bar.component";
-import { PizzasListComponent } from './pizzas-list/pizzas-list.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { NavBarComponent } from "./shared/components/nav-bar/nav-bar.component";
+// import { PizzasListComponent } from './pizzas-list/pizzas-list.component';
+// import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -16,7 +16,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Hello World (app.component.ts)!';
+  title = '(app.component.ts)!';
 
   // @HostListener('window:scroll')
   // onScroll() {

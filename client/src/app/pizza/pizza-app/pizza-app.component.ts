@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { SizePipe } from "../shared/pipes/size.pipe";
+import { SizePipe } from "../../shared/pipes/size.pipe";
 
 @Component({
   selector: 'app-pizza-app',

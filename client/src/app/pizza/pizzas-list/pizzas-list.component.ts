@@ -1,6 +1,6 @@
 import { Component, OnInit, WritableSignal } from '@angular/core';
-import { Pizza } from '../pizza-interface';
-import { PizzaService } from '../pizza.service';
+import { Pizza } from '../../pizza/pizza-interface';
+import { PizzaService } from '../../shared/services/pizza.service';
 import { RouterModule } from '@angular/router';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';

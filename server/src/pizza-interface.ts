@@ -6,7 +6,7 @@ export interface Pizza {
     size: PizzaSize;
     toppings: string;
     _id?: mongodb.ObjectId;
-}
+} 
 
 // export interface PizzaEntity extends Pizza {
 //     id: string;

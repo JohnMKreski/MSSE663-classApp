@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { PizzaFormComponent } from '../pizza-form/pizza-form.component';
-import { Pizza } from '../pizza-interface';
-import { PizzaService } from '../pizza.service';
+import { PizzaFormComponent } from '../../pizza/pizza-form/pizza-form.component';
+import { Pizza } from '../../pizza/pizza-interface';
+import { PizzaService } from '../../shared/services/pizza.service';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
