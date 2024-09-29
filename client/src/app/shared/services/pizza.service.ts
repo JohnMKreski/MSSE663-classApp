@@ -1,6 +1,7 @@
 import { Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Pizza } from '../../pizza/pizza-interface';
+import { Observable } from 'rxjs';
 
 /**
  * Signals is the "new" way of doing things
