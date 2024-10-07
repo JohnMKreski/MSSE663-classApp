@@ -4,13 +4,13 @@ export type PizzaSize = 'small' | 'medium' | 'large' | 'x-large';
 
 export interface Pizza {
     size: PizzaSize;
-    toppings: string;
+    toppings: string[];
     _id?: mongodb.ObjectId;
 } 
 
-// export interface PizzaEntity extends Pizza {
-//     id: string;
-//   }
+export interface PizzaEntity extends Pizza {
+    id: string;
+  }
 
 
 // const MEAT_LOVER = ['bacon', 'pepperoni'];
