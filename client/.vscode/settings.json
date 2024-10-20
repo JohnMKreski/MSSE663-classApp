@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2, // Set indentation to 2 spaces
+  "editor.insertSpaces": false, // Use spaces for indentation instead of tabs
+  "editor.detectIndentation": false, // Disable automatic detection of indentation style
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier as the default formatter
+  "prettier.tabWidth": 2, // Ensure Prettier uses 2 spaces for indentation
+  "prettier.useTabs": false, // Ensure Prettier uses spaces, not tabs
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  }
+}
